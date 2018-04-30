@@ -1,0 +1,9 @@
+Building Threeitcoin
+
+See doc/readme-qt.rst for instructions on building Threeitcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Threeitcoin.
+
+See doc/build-*.txt for instructions on building threeitcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Threeitcoin.
