@@ -28,10 +28,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Threeitcoin address (e.g. Td59p25mnM1nBwNiBwFGztcQTJh6N4paFg)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Threeitcoin address (e.g. td59p25mnM1nBwNiBwFGztcQTJh6N4paFg)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Threeitcoin address (e.g. Td59p25mnM1nBwNiBwFGztcQTJh6N4paFg)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Threeitcoin address (e.g. td59p25mnM1nBwNiBwFGztcQTJh6N4paFg)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter Threeitcoin signature"));
 #endif
 
